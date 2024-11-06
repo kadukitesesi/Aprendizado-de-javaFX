@@ -89,7 +89,6 @@ public class HelloApplication extends Application {
 
         stage.setScene(cenaPrincipal);
         stage.show();
-
     }
 
     public static void main(String[] args) {
