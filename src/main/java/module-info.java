@@ -13,5 +13,7 @@ module com.kadukitesesi.quentinhas {
     requires java.desktop;
 
     opens com.kadukitesesi.quentinhas to javafx.fxml;
+    opens com.kadukitesesi.layout to javafx.fxml;
     exports com.kadukitesesi.quentinhas;
+    exports com.kadukitesesi.layout;
 }
